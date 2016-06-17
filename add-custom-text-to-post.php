@@ -12,4 +12,4 @@ function changeTextOnSave($content){
 	}
 }
 
-add_filter('content_save_pre','changeTextAfterSave');
+add_filter('content_save_pre','changeTextOnSave');
