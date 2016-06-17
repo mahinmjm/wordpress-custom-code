@@ -9,6 +9,8 @@ function changeTextOnSave($content){
     		$content = str_ireplace($text,  '', $content);
 			return $content." - This post is not created by admin";
 		}
+	}else{
+		return $content;
 	}
 }
 
